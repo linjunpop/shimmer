@@ -1,0 +1,15 @@
+@mixin shimmer($background-color:#000, $spotlight-color:#fff, $duration:2.0s) {
+  background: linear-gradient(to right, $background-color 41%, darken($spotlight-color, 10%) 49%, $spotlight-color, darken($spotlight-color, 10%) 52%, $background-color 60%);
+  background-size: 200% 100%;
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  -webkit-background-clip: text;
+  text-fill-color: rgba(0, 0, 0, 0.0);
+  animation: shimmer $duration linear 0s infinite normal;
+  text-align: center;
+}
+
+@keyframes shimmer {
+  0% { background-position-x: 100%; }
+  100% { background-position-x: 0; }
+}
