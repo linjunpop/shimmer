@@ -9,3 +9,7 @@ Shimming.
 ```
 
 See it in action: http://cdpn.io/Hdmay
+
+## Vendor prefix
+
+Try https://github.com/ai/autoprefixer, it's awesome.
