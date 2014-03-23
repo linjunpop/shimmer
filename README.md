@@ -5,7 +5,7 @@ Shimming.
 ## Usage
 
 ```scss
-@include shimmer($background-color:#000, $spotlight-color:#E9DDCC, $duration:2.0s);
+@include shimmer($background-color:#000, $shimmer-color:#E9DDCC, $duration:2.0s);
 ```
 
 See it in action: http://cdpn.io/Hdmay

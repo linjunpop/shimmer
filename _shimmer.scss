@@ -1,5 +1,5 @@
-@mixin shimmer($background-color:#000, $spotlight-color:#fff, $duration:2.0s) {
-  background: linear-gradient(to right, $background-color 41%, darken($spotlight-color, 10%) 49%, $spotlight-color, darken($spotlight-color, 10%) 52%, $background-color 60%);
+@mixin shimmer($background-color:#000, $shimmer-color:#fff, $duration:2.0s) {
+  background: linear-gradient(to right, $background-color 41%, darken($shimmer-color, 10%) 49%, $shimmer-color, darken($shimmer-color, 10%) 52%, $background-color 60%);
   background-size: 200% 100%;
   background-repeat: no-repeat;
   background-position: 100% 0;
