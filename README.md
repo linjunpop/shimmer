@@ -1,6 +1,6 @@
 # Shimmer
 
-Shimming.
+![Slide to unlock screenshot](http://f.cl.ly/items/0u0D3P0V0k110A2E0H44/Untitled.gif)
 
 ## Usage
 
